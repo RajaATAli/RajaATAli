@@ -4,7 +4,7 @@
 
 <h3 style="color: #44AEFB;"> 🏫 Purdue University Indianapolis </h3>
 
-![github_cover](/Users/rajaallmdar/Desktop/RajaATAli/github-header-image (2).png)
+![github_cover](github-header-image (5).png)
 
 
 
