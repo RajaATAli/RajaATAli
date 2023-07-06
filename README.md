@@ -44,7 +44,7 @@
 <!-- Change the value after ?username= to your GitHub username. -->
 <div class="stats" align="center">
 
-![Khaled Badran's GitHub Stats](https://github-readme-stats.vercel.app/api?username=RajaATAli&hide=stars&count_private=true&show_icons=true&theme=algolia&border_radius=20)
+![Khaled Badran's GitHub Stats](https://github-readme-stats.vercel.app/api?username=RajaATAli&hide=stars&count_private=true&show_icons=true&theme=algolia&border_radius=20&hide_rank=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=RajaATAli&count_private=true&theme=algolia&border_radius=20)
 
