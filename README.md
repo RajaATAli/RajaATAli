@@ -1,17 +1,31 @@
 <h1 style="color: #44AEFB;"> 👨🏻‍💻 Raja Allmdar Tariq Ali </h1>
 
-![Alttext](img1.png)
 
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+There!+👋;This+is+Raja!....;Nice+to+meet+you!&center=true&size=30">
+  </a>
+</h1>
 
-
-
-<p align:"center" style="text-align: justify; margin: 0 50px; font-size: 50px;" >
-    I'm currently a Software Engineer Intern at <strong>Eli Lilly and Company</strong> and pursuing a Bachelor's degree in Computer Science with a Minor in Math at <strong>Purdue University in Indianapolis</strong>.
-<br>
-<br>
 <div align="center">
+  <a href='https://www.linkedin.com/in/raja-allmdar-tariq-ali/'>
+    <img alt="LinkedIn" src="https://raw.githubusercontent.com/rahul-jha98/rahul-jha98/561d474902b59c7429ec22bb73e225696c27b202/assets/linkedin.svg" height='18px'/>
+  </a>
+  <a href='https://x.com/rajaatali?s=21'>
+    <img alt="Twitter" src="https://raw.githubusercontent.com/rahul-jha98/rahul-jha98/561d474902b59c7429ec22bb73e225696c27b202/assets/twitter.svg" height='18px'/>
+  </a>
+</div>
 
-<h3 align="left">Languages and Tools:</h3>
+
+<h3 align="center">Currently a Software Engineering Intern at Eli Lilly and Company 🧬 <br/>
+Graduating from Purdue University in May 2026 with a Bachelor's of Science in Computer Science and a minor in Mathematics (Honors) 🎓 </h3>
+
+- 💬 &nbsp; Ask me about anything tech related, I am happy to help;
+- 📫 &nbsp; Feel free to ping me on [LinkedIn](https://www.linkedin.com/in/raja-allmdar-tariq-ali/)
+- 📝 &nbsp; Checkout my [Resume](https://drive.google.com/file/d/1R3znj3z_Ari7NttGpJSQA7WAu8y2pcPz/view?usp=sharing)
+- ⚡ &nbsp; Fun Fact: I’m passionate about Equestrian Sports and have a strong interest in Fitness, Traveling, and Technology!
+
+<h3 align="left"> 🔨Languages, Tools & Technologies:</h3>
 <p align="left"> 
 <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> 
 <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
@@ -37,7 +51,6 @@
 
 <h2 style="color: #44AEFB">📊 Statistics</h2>
 
-![stats_banner](https://user-images.githubusercontent.com/78341798/194534778-d662496c-ae00-4e8d-ae9b-b90912054e7f.gif)
 
 <!-- Begin Stats Cards -->
 <!-- Resources:  -->
