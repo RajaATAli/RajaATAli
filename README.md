@@ -5,8 +5,8 @@
 
 
 
-<p align:"center" style="text-align: justify; margin: 0 50px; font-size: 27px;" >
-    I'm currently a Software Engineer Intern at **Eli Lilly and Company** and pursuing a Bachelor's degree in Computer Science with a Minor in Math at Purdue University in Indianapolis.
+<p align:"center" style="text-align: justify; margin: 0 50px; font-size: 50px;" >
+    I'm currently a Software Engineer Intern at <strong>Eli Lilly and Company</strong> and pursuing a Bachelor's degree in Computer Science with a Minor in Math at <strong>Purdue University in Indianapolis</strong>.
 <br>
 <br>
 <div align="center">
