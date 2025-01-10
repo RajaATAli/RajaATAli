@@ -35,7 +35,7 @@ Graduating from Purdue University in May 2026 with a Bachelor's of Science in Co
 - 💬 &nbsp; Ask me about anything tech related, I am happy to help
 - 📫 &nbsp; Feel free to ping me on [LinkedIn](https://www.linkedin.com/in/raja-allmdar-tariq-ali/) or send me an [Email](mailto:real.rajaatali@gmail.com)
 - 📝 &nbsp; Checkout my [Resume](https://drive.google.com/file/d/1R3znj3z_Ari7NttGpJSQA7WAu8y2pcPz/view?usp=sharing)
-- ⚡ &nbsp; Fun Fact: I’m passionate about Equestrian Sports and have a strong interest in Fitness, Traveling, Technology, Content Creation, and Entrepreneurship!
+- ⚡ &nbsp; I’m passionate about Equestrian Sports and have a strong interest in Fitness, Traveling, Technology, Content Creation, and Entrepreneurship!
 
 <h3 align="left"> 🔨Languages, Tools & Technologies:</h3>
 <p align="left"> 
