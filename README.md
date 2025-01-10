@@ -29,7 +29,7 @@
 </div>
 
 
-<h3 align="center">Currently a Software Engineering Intern at Eli Lilly and Company 🧬 <br/>
+<h3 align="center">Currently a Software Engineer Intern at Eli Lilly and Company 🧬 <br/>
 Graduating from Purdue University in May 2026 with a Bachelor's of Science in Computer Science and a minor in Mathematics (Honors) 🎓 </h3>
 
 - 💬 &nbsp; Ask me about anything tech related, I am happy to help
