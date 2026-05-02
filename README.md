@@ -1,31 +1,39 @@
-<h1 style="color: #44AEFB;"> 👨🏻‍💻 Raja Allmdar Tariq Ali </h1>
+<h1 align="center">Raja Allmdar Tariq Ali</h1>
 
+<h3 align="center">
+  Tech for Life Sciences, Biopharma, Healthcare, and Scientific R&amp;D
+</h3>
 
-<h1 align="center">
+<p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello,+There!+👋;This+is+Raja!....;Nice+to+meet+you!&center=true&size=30">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=22&amp;duration=2800&amp;pause=900&amp;color=16323F&amp;center=true&amp;vCenter=true&amp;width=860&amp;lines=Software+Engineer+%40+Eli+Lilly;Purdue+CS+%2B+Mathematics+%28Honors%29;Building+software+for+scientists;AI+%E2%80%A2+data+systems+%E2%80%A2+healthcare+technology" alt="Typing SVG" />
   </a>
-</h1>
+</p>
 
 <div align="center">
-  <a href='https://www.linkedin.com/in/raja-allmdar-tariq-ali/'>
-    <img alt="LinkedIn" src="https://raw.githubusercontent.com/rahul-jha98/rahul-jha98/561d474902b59c7429ec22bb73e225696c27b202/assets/linkedin.svg" height='18px'/>
+  <a href="https://www.linkedin.com/in/raja-allmdar-tariq-ali/">
+    <img alt="LinkedIn" src="https://raw.githubusercontent.com/rahul-jha98/rahul-jha98/561d474902b59c7429ec22bb73e225696c27b202/assets/linkedin.svg" height="20px" />
   </a>
-  <a href='https://x.com/real_rajaali?s=21'>
-    <img alt="Twitter" src="https://raw.githubusercontent.com/rahul-jha98/rahul-jha98/561d474902b59c7429ec22bb73e225696c27b202/assets/twitter.svg" height='18px'/>
+  &nbsp;&nbsp;
+  <a href="https://x.com/real_rajaali">
+    <img alt="X" src="https://raw.githubusercontent.com/rahul-jha98/rahul-jha98/561d474902b59c7429ec22bb73e225696c27b202/assets/twitter.svg" height="20px" />
   </a>
-  <a href='https://www.youtube.com/@real.rajaali'>
-    <img alt="YouTube" src="youtube2.png" height='18px'/>
+  &nbsp;&nbsp;
+  <a href="https://www.youtube.com/@real.rajaali">
+    <img alt="YouTube" src="youtube2.png" height="20px" />
   </a>
-    <a href='https://www.instagram.com/real.rajaali/'>
-        <img alt="Instagram" src="insta.svg" height='18px'/>
-    </a>
-    <a href='https://www.tiktok.com/@realrajaali?_t=ZT-8svvYUuMtHa&_r=1'>
-        <img alt="TikTok" src="image.png" height='18px'/>
-    </a>
-    <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
-        <img alt="Personal Wesbite" src="personal_website.png" height='18px'/>
-    </a>
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/real.rajaali/">
+    <img alt="Instagram" src="insta.svg" height="20px" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.tiktok.com/@realrajaali">
+    <img alt="TikTok" src="image.png" height="20px" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:real.rajaatali@gmail.com">
+    <img alt="Email" src="personal_website.png" height="20px" />
+  </a>
 </div>
 
 
