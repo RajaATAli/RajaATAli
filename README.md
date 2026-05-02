@@ -1,4 +1,4 @@
-<h1 align="center">Raja Allmdar Tariq Ali</h1>
+<h1 align="center">Raja Ali</h1>
 
 <h3 align="center">
   Tech for Life Sciences, Biopharma, Healthcare, and Scientific R&amp;D
