@@ -111,5 +111,6 @@
 ### GitHub record
 
 <p align="center">
-  <img alt="Raja Ali's GitHub contributions and streak" src="https://streak-stats.demolab.com?user=RajaATAli&amp;background=F4EFE3&amp;border=16323F&amp;stroke=16323F&amp;ring=16323F&amp;fire=16323F&amp;currStreakNum=16323F&amp;sideNums=16323F&amp;currStreakLabel=16323F&amp;sideLabels=1A1614&amp;dates=3A332E&amp;border_radius=0" />
+  <img height="195" alt="Raja Ali's GitHub contribution streak" src="https://streak-stats.demolab.com?user=RajaATAli&amp;mode=daily&amp;background=F4EFE3&amp;border=16323F&amp;stroke=16323F&amp;ring=16323F&amp;fire=16323F&amp;currStreakNum=16323F&amp;sideNums=16323F&amp;currStreakLabel=16323F&amp;sideLabels=1A1614&amp;dates=3A332E&amp;border_radius=0&amp;short_numbers=true" />
+  <img height="195" alt="Raja Ali's most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajaATAli&amp;layout=compact&amp;langs_count=10&amp;size_weight=0.5&amp;count_weight=0.5&amp;border_color=16323F&amp;border_radius=0&amp;bg_color=F4EFE3&amp;title_color=16323F&amp;text_color=1A1614&amp;cache_seconds=21600" />
 </p>
