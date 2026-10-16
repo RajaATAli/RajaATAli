@@ -26,7 +26,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="Languages and tools: Python, TypeScript, JavaScript, Java, C, C++, R, MATLAB, Fortran, FastAPI, Django, Node, React, GraphQL, Postgres, Redis, SQL Server, Unity, TensorFlow, MLflow, OpenAI, Databricks, Power BI, AWS, Docker, Terraform, Linux, Git, Bash" src="assets/stack-light.svg">
+  <img alt="Languages and tools: Python, TypeScript, JavaScript, Go, Java, C, C++, R, MATLAB, Fortran, AWS, Docker, Kubernetes, Terraform, GitHub Actions, Linux, Git, Bash, Prometheus, Grafana Loki, FastAPI, Django, Node, React, GraphQL, Postgres, Redis, SQL Server, Unity, TensorFlow, MLflow, Databricks, Power BI, OpenAI, Claude Code, MCP" src="assets/stack-light.svg">
 </picture>
 
 <img src="assets/khatam.svg" width="16" height="16" alt=""> <samp>updated <!--date-->16 oct 2026<!--/date--></samp>
