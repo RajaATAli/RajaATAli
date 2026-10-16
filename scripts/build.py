@@ -249,25 +249,27 @@ def plate(p, days):
     return svg(W, H, ''.join(b), css, f'{total} contributions from {long_date(start)} to {long_date(end)}, one circle per day')
 
 
-# Tools, laid out as a periodic table. (icon key, label); None is the empty "next" cell.
-GROUPS = [
-    ('LANGUAGES', 3, [('python', 'python'), ('typescript', 'typescript'), ('javascript', 'javascript'), ('openjdk', 'java'), ('c', 'c'),
-                      ('cplusplus', 'c++'), ('r', 'r'), ('matlab', 'matlab'), ('fortran', 'fortran')]),
-    ('BUILD &amp; DATA', 3, [('fastapi', 'fastapi'), ('django', 'django'), ('nodedotjs', 'node'), ('react', 'react'), ('graphql', 'graphql'),
-                             ('postgresql', 'postgres'), ('redis', 'redis'), ('microsoftsqlserver', 'sql server'), ('unity', 'unity')]),
-    ('ML &amp; ANALYTICS', 2, [('tensorflow', 'tensorflow'), ('mlflow', 'mlflow'), ('openai', 'openai'), ('databricks', 'databricks'),
-                               ('powerbi', 'power bi'), (None, 'next')]),
-    ('INFRA', 2, [('amazonwebservices', 'aws'), ('docker', 'docker'), ('terraform', 'terraform'), ('linux', 'linux'), ('git', 'git'), ('gnubash', 'bash')]),
+# Tools, laid out as a periodic table: one row per group, with groups sharing a row where they fit.
+ROWS = [
+    [('LANGUAGES', [('python', 'python'), ('typescript', 'typescript'), ('javascript', 'javascript'), ('go', 'go'), ('java', 'java'),
+                    ('c', 'c'), ('cplusplus', 'c++'), ('r', 'r'), ('matlab', 'matlab'), ('fortran', 'fortran')])],
+    [('INFRA', [('amazonwebservices', 'aws'), ('docker', 'docker'), ('kubernetes', 'kubernetes'), ('terraform', 'terraform'),
+                ('githubactions', 'gh actions'), ('linux', 'linux'), ('git', 'git'), ('gnubash', 'bash')]),
+     ('OBSERVABILITY', [('prometheus', 'prometheus'), ('grafana', 'grafana loki')])],
+    [('BUILD &amp; DATA', [('fastapi', 'fastapi'), ('django', 'django'), ('nodedotjs', 'node'), ('react', 'react'), ('graphql', 'graphql'),
+                           ('postgresql', 'postgres'), ('redis', 'redis'), ('database', 'sql server'), ('unity', 'unity')])],
+    [('ML &amp; ANALYTICS', [('tensorflow', 'tensorflow'), ('mlflow', 'mlflow'), ('databricks', 'databricks'), ('powerbi', 'power bi')]),
+     ('AI AGENTS', [('openai', 'openai'), ('claude', 'claude code'), ('modelcontextprotocol', 'mcp')])],
 ]
 
 def stack(p):
     W = 1000
-    TW, TH, GAP, X0, Y0 = 86, 96, 8, 48, 92
-    H = Y0 + 3 * (TH + GAP) + 40
+    TW, TH, GAP, X0, Y0, BAND = 86, 96, 8, 48, 76, 162
+    H = Y0 + len(ROWS) * BAND - 20
     css = f"""
-      .t{{fill:{p['tile']};stroke:{p['ring']};stroke-width:1}} .t.q{{fill:none;stroke-dasharray:4 4}}
-      .num{{font-size:12px;fill:{p['mute']};opacity:.75}} .nm{{font-size:12px;fill:{p['fg']};opacity:.9}}
-      .lg{{color:{p['fg']}}} .qm{{font-size:30px;fill:{p['acc_text']}}}
+      .t{{fill:{p['tile']};stroke:{p['ring']};stroke-width:1}}
+      .num{{font-size:12px;fill:{p['mute']};opacity:.75}} .nm{{fill:{p['fg']};opacity:.9}}
+      .lg{{color:{p['fg']}}}
       .gl{{font-size:14px;letter-spacing:.12em;fill:{p['acc_text']}}} .brace{{fill:none;stroke:{p['acc']};stroke-width:1.2}}
       @media (prefers-reduced-motion:no-preference){{
         .t{{animation:exc 9s infinite}} .num{{animation:excn 9s infinite}}
@@ -276,24 +278,23 @@ def stack(p):
         {''.join(f'.c{c}{{animation-delay:{c*0.14:.2f}s}}' for c in range(10))}
       }}"""
     b = [ground(W, H, p)]
-    col, z = 0, 1
-    for name, ncols, items in GROUPS:
-        gx0 = X0 + col * (TW + GAP)
-        gx1 = gx0 + ncols * (TW + GAP) - GAP
-        b.append(f'<path d="M{gx0} {Y0-14} V{Y0-22} H{gx1} V{Y0-14}" class="brace"/><text x="{gx0}" y="{Y0-34}" class="gl">{name}</text>')
-        for k, (icon, label) in enumerate(items):
-            r, c = divmod(k, ncols)
-            x, y, cc = X0 + (col + c) * (TW + GAP), Y0 + r * (TH + GAP), col + c
-            if icon is None:
-                b.append(f'<rect x="{x}" y="{y}" width="{TW}" height="{TH}" class="t q"/><text x="{x+TW/2}" y="{y+56}" text-anchor="middle" class="qm">?</text>'
-                         f'<text x="{x+TW/2}" y="{y+TH-12}" text-anchor="middle" class="nm">{label}</text>')
-                continue
-            glyph = ICONS['tools'][icon]
-            b.append(f'<rect x="{x}" y="{y}" width="{TW}" height="{TH}" class="t c{cc}"/><text x="{x+8}" y="{y+18}" class="num c{cc}">{z}</text>'
-                     f'<g class="lg" transform="translate({x+TW/2-15} {y+24}) scale({30 / glyph["size"]:.4f})">{glyph["body"]}</g>'
-                     f'<text x="{x+TW/2}" y="{y+TH-12}" text-anchor="middle" class="nm">{label}</text>')
-            z += 1
-        col += ncols
+    z = 1
+    for r, groups in enumerate(ROWS):
+        y, col = Y0 + r * BAND, 0
+        for name, items in groups:
+            gx0 = X0 + col * (TW + GAP)
+            gx1 = gx0 + len(items) * (TW + GAP) - GAP
+            b.append(f'<path d="M{gx0} {y-14} V{y-22} H{gx1} V{y-14}" class="brace"/><text x="{gx0}" y="{y-34}" class="gl">{name}</text>')
+            for icon, label in items:
+                x = X0 + col * (TW + GAP)
+                glyph = ICONS['tools'][icon]
+                g = 30 * glyph.get('zoom', 1)
+                size = min(12, 78 / (len(label) * 0.6))
+                b.append(f'<rect x="{x}" y="{y}" width="{TW}" height="{TH}" class="t c{col}"/><text x="{x+8}" y="{y+18}" class="num c{col}">{z}</text>'
+                         f'<g class="lg" transform="translate({x+TW/2-g/2} {y+39-g/2}) scale({g / glyph["size"]:.4f})">{glyph["body"]}</g>'
+                         f'<text x="{x+TW/2}" y="{y+TH-12}" text-anchor="middle" class="nm" font-size="{size:.1f}">{label}</text>')
+                z += 1
+                col += 1
     return svg(W, H, ''.join(b), css, 'Languages, tools and technologies')
 
 
