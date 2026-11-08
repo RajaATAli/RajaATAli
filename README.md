@@ -37,4 +37,4 @@
 </picture>
 </p>
 
-<img src="assets/khatam.svg" width="16" height="16" alt=""> <samp>updated <!--date-->7 nov 2026<!--/date--></samp>
+<img src="assets/khatam.svg" width="16" height="16" alt=""> <samp>updated <!--date-->8 nov 2026<!--/date--></samp>
